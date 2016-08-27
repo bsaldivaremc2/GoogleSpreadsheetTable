@@ -15,5 +15,6 @@ TableG.createTable(keyG);// Create the table
 </div>
 
 </body>
-
+Some indications:
+Google spreadsheet when publish the files as json, separates the fields using a ",", so in your spreadsheet, before publishing, replace all "," with "bsaldivar". This js file searchs all "bsaldivar" words and replaces back to "," before printing the html text. Or just change that token in the code.
 
